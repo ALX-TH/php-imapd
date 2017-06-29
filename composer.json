@@ -1,0 +1,29 @@
+{
+	"name": "php-imapd/php-imapd",
+	"description": "PHP class to access mailbox by POP3/IMAP/NNTP using IMAP extension",
+	"keywords": [
+		"PHP",
+		"IMAP",
+		"mail"
+	],
+	"homepage": "https://github.com/ALX-TH/php-imapd",
+	"license": "BSD 3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Oleksandr Kuzmenko",
+			"homepage": "http://gns-it.com",
+			"email": "oleksandr.kuzmenkogns-it.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"ext-imap": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhpImap\\": "src/PhpImap/"
+		}
+	},
+	"minimum-stability": "stable"
+}
